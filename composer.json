@@ -1,0 +1,20 @@
+{
+    "name": "devoir/php",
+    "description": "Devoir blog php composer",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Me"
+        }
+    ],
+    "require": {
+        "nikic/fast-route": "^1.3",
+        "vlucas/phpdotenv": "^5.5",
+        "respect/validation": "^1.1"
+    }
+}
